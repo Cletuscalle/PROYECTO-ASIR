@@ -19,4 +19,10 @@ Para que esto funcione, en tu router/firewall tenemos que crear una regla (pinho
 
     Acción: ALLOW (Permitir).
 
-    
+¿Qué software usar?
+
+En la DMZ (Servidor FTP):
+  Linux: vsftpd (Very Secure FTP Daemon) configurado para usar PAM y el módulo libpam-radius-auth.
+
+En la LAN (Servidor RADIUS):
+  Linux:FreeRadius
