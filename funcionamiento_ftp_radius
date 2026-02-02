@@ -1,0 +1,22 @@
+Usaremos un servidor RADIUS para loguearnos en el servidor FTP, así no creas usuarios locales en el servidor FTP sino que usamos los mismos usuarios que ya tienes en tu LDAP.
+Aunque el servidor FTP esté en la DMZ, el RADIUS no estará ahí 
+
+El flujo de conexión funciona así:
+  El usuario desde Internet intenta entrar al FTP.
+  El Servidor FTP no tiene los usuarios guardados. Recibe el usuario/contraseña y se da la vuelta para preguntarle al RADIUS (que está dentro de la LAN): "¿Oye, estas credenciales son válidas?".
+  El RADIUS comprueba (en su base de datos o en el Active Directory) y responde: "Sí, déjalo pasar".
+  El usuario entra.
+
+Como tenemos el FTP en la DMZ y el RADIUS en la LAN, el firewall por defecto bloqueará la comunicación.
+
+Para que esto funcione, en tu router/firewall tenemos que crear una regla (pinhole) muy específica:
+
+    Origen: IP del Servidor FTP (DMZ).
+
+    Destino: IP del Servidor RADIUS (LAN).
+
+    Puerto: UDP 1812 (Autenticación) y a veces UDP 1813 (Accounting/Registro).
+
+    Acción: ALLOW (Permitir).
+
+    
