@@ -2,7 +2,11 @@
 
 ## Portada (título, integrantes, tutor/a)
 ## Análisis y mejora de la infraestrucura informática del IES Padre Poveda
-Integrantes: Ángel Luis Aranda, Juan Ramón Jiménez y Jesús Cortés - 2º ASIR
+Integrantes: 
+ - Ángel Luis Aranda
+ - Juan Ramón Jiménez
+ - Jesús Cortés
+Curso: 2º ASIR
 ## Índice
 ## Resumen ejecutivo
 
