@@ -8,6 +8,9 @@ Contamos con:
 - Patch panel.
 - Switch.
 - Switch configurable.
+- Proxy del departamento (a sustituir por nuestro proxy).
+- Switch por cada aula.
+- Patch panel en algunas de las aulas (habra que poner patch panel en aquellas que no este).
 
 ## Recursos necesarios
 
