@@ -1,5 +1,10 @@
 # Memoria ténica
 
+## Portada (título, integrantes, tutor/a)
+## Índice
+## Resumen ejecutivo
+
+
 ## 1. Introducción y objetivos
 
 
