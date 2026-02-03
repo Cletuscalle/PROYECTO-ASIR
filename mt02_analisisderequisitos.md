@@ -35,6 +35,9 @@ Un servidor dedicado que proporciona:
 - **FOG**: despliegue y restauración de equipos sin necesidad de pendrive.
 - **RADIUS**: autenticación centralizada.
 
+### Patch panel para el aula 1 Asir
+### Conectores rj45 machos y hembras para las aulas
+
 ## Configuración crítica del proxy/router
 
 ### Redirección obligatoria de DNS
