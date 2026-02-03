@@ -45,3 +45,19 @@ El proyecto abarca:
 
 **-Análisis, Mantenimiento y configuracion del hardware:**
 *Instalación física de cableado estructurado o hardware (racks, rosetas), asumiendo la reutilización de la infraestructura pasiva existente.*
+
+* **Auditoría de Inventario y Compatibilidad:**
+    * Evaluación de los recursos de hardware existentes (CPU, RAM, Almacenamiento) en los servidores destinados a virtualización (Proxmox/ESXi) para asegurar que soportan la carga de los nuevos servicios (RADIUS, FOG, Web, etc.).
+    * Verificación de capacidades en equipos de interconexión: Soporte para estándares en switches y capacidad de procesamiento/throughput en el router para gestionar el tráfico de la DMZ sin cuellos de botella.
+
+* **Mantenimiento Preventivo y Actualización:**
+    * Actualización de **Firmware/IOS** en switches y routers para mitigar vulnerabilidades conocidas y asegurar compatibilidad con nuevas funcionalidades.
+    * Configuración de niveles de **RAID** (software o hardware) en los servidores para garantizar la redundancia y disponibilidad de datos 
+
+* **Configuración de Dispositivos Activos:**
+    * Configuración de interfaces, enrutamiento estático/dinámico y servicios base (DHCP, NTP) en el hardware de red.
+    * Segmentación de puertos en switches (Access/Trunk) acorde al diseño de VLANs propuesto.
+
+* **Infraestructura Física Pasiva:**
+    * Instalación de cableado estructurado (UTP/Fibra), canaletas, rosetas, paneles de parcheo (patch panels). Se utilizará el cableado ya certificado del edificio.
+    * Incluye el montaje físico de armarios rack y la instalación eléctrica asociada (SAI/UPS)
