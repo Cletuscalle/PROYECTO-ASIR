@@ -2,6 +2,7 @@
 
 ## Situación actual
 La infraestructura de red ya está parcialmente implementada.
+
 Contamos con:
 
 
