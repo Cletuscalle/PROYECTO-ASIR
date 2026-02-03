@@ -1,7 +1,9 @@
 # Análisis de requisitos de infraestructura
 
 ## Situación actual
-La infraestructura de red ya está parcialmente implementada. El proyecto consiste en añadir una **DMZ** y servicios adicionales para mejorar la infraestructura y seguridad de la red.
+La infraestructura de red ya está parcialmente implementada.
+Contamos con:
+
 
 ## Recursos necesarios
 
