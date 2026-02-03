@@ -5,7 +5,7 @@ La infraestructura de red ya está parcialmente implementada.
 
 Contamos con:
 - Router del departamento.
-- Back panel.
+- Patch panel.
 - Switch.
 - Switch configurable.
 
